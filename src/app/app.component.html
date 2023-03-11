@@ -26,5 +26,5 @@
     </table>
   </div>
 
-  <app-edit-hero [hero]="heroToEdit"></app-edit-hero>
+  <app-edit-hero [hero]="heroToEdit" (heroesUpdated)="updateHeroList($event)"></app-edit-hero>
 </div>
